@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samadhi</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+    <div class="nav">
+        <img src="imagens/image-removebg-preview (4).png" alt="Logo">
+
+       
+
+        <ul>
+            <a href="#depoimento"><li>Depoimento</li></a>
+            <a href="#loc"><li>Localização</li></a>
+            <a href="#form"><li>Contato</li></a>
+         </ul>
+
+       
+
+
+    </div>
+        
+    </header>
+
+    <section class="padding intro">
+        <img class="img-fundo" src="imagens/imagem lotus.jpg" alt="Simbolo harmonia">
+        <div class="container-intro">
+        
+        <div class="row"><h1 id="escrevendo"></h1></div>
+        <p>Venha praticar yoga, fazer uma conexão entre corpo, mente e alma. Conecte-se com seu eu interior, alcance equilíbrio, serenidade e paz. </p>
+        <a href="#form"><button>Quero mudar de vida</button></a>
+        </div>
+    </section>
+
+    <section class="padding depoimento" id="depoimento">
+        <div class="container-titulo">
+            <span><p>~</p></span>
+            <h1>Depoimento</h1>
+        </div>
+
+        <div class="card-depoimento">
+            
+            <img src="imagens/foto perfil cortada.png" alt="Imagem instrutora de yoga">
+            <div class="textos-card">
+                <p class="q"><i class='bx bxs-quote-alt-left'></i>
+                    Minha conexão com Yoga vem dê criança; sempre tive muito contato com elementos da natureza. Yoga pra mim é uma ciência, uma técnica de vida  que  há  milhares de anos vem despertando os seres humanos.</p>
+                <p>Letícia Samãdhi</p>
+                <span>Empreendedora e instrutora de Yoga</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="call padding">
+        <div>
+        <p>Fale conosco e dê o primeiro passo para uma mudança de vida!</p>
+        <a href="https://wa.me/48988474421?text=Ol%C3%A1%20tudo%20bem,%20vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20melhor%20seus%20servi%C3%A7os!" target="_blank"><button>WhatsApp</button></a>
+        </div>
+    </section>
+
+    <section class="padding loc" id="loc">
+        <div class="flex">
+    <div class="textos-loc">
+        <h2>Localização</h2>
+        <div class="flex1">
+            <i class='bx bxs-map'></i>
+            <p>Rodovia José Carlos Daux, Ac. ao Corporate Park, 8600 - Bloco 5, Sala 1 - Santo Antonio de Lisboa, Florianópolis - SC, 88050-000</p>
+        </div>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3538.7595520378973!2d-48.51510178957392!3d-27.50785241823294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952746f0c289abe1%3A0x2799d05006b05796!2sAc.%20ao%20Corporate%20Park%2C%208600%20-%205%20-%20Santo%20Antonio%20de%20Lisboa%2C%20Florian%C3%B3polis%20-%20SC%2C%2088050-000!5e0!3m2!1spt-BR!2sbr!4v1689248319938!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="padding form" id="form">
+        <h2>Gostou?</h2>
+        <p>Então preencha o formulário abaixo que nossa equipe entrará em contato!</p>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            
+            
+        <input type="hidden" name="accessKey" value="9e2d17e8-45ff-4434-b43d-de66708e007c"> 
+        <div class="container-column">
+            <div class="column">
+            <input type="text" name="name" placeholder="Nome" required autocomplete="none">
+            <input type="text" name="email" placeholder="Email" >
+            </div>
+
+            <div class="column">
+            <input type="text" name="phone" placeholder="Telefone" required> 
+            <input type="text" name="message" placeholder="Interesse"> 
+            </div>
+        </div>
+
+            <textarea name="message" style="resize: none" placeholder="Digite uma mensagem" ></textarea> 
+            
+            <!-- <input type="hidden" name="redirectTo" value="https://example.com/contact/success"> -->
+            <input type="submit" value="ENVIAR" class=" button"/>
+        </form>
+    </section>
+
+    
+
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="mobile-navbar.js"></script>
+
+    <script>
+     
+    var typed = new Typed('#escrevendo', {
+      strings: ['Yoga é pra mim', 'Yoga é pra você', 'Yoga é pra todos!'],
+      typeSpeed: 50,
+      backSpeed: 40,
+      startDelay: 800,
+    //   loop: true,
+
+    });
+     
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@media (max-width: 768px){
+    .padding{
+        padding: 30px;
+    }
+    
+    textarea, .column input{
+        padding: 0;
+    }
+    .intro p, .flex p, .call p, .form p{
+        font-size: 1.05rem;
+        max-width: 25rem;
+    }
+    .depoimento h1, .textos-loc h2, .form h2, .row h1{
+        font-size: 33px;
+    }
+    .flex{
+        flex-direction: column;
+        gap: 6rem;
+        margin-bottom: 2rem;
+    }
+    iframe{
+        width: 320px;
+        height: 350px;
+    }
+    
+    .call div{
+        flex-direction: column;
+        padding: 40px 40px; 
+        gap: 2rem;
+        background: linear-gradient(180deg, #55d7b6b2 , #fff);
+    }
+    .call div p{
+        text-align: center;
+    }
+   
+   
+    .column{
+        flex-direction: column;
+    }
+    header ul{
+        display: none;
+    }
+    .intro img{
+        display: none;
+    }
+}
+@media (max-width: 1170px){
+    .img-fundo{
+        display: none;
+    }
+    .flex{
+       gap: 5rem;
+    }
+    .flex{
+        flex-direction: column;
+        gap: 6rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 970px){
+    
+    .card-depoimento{
+        flex-direction: column;
+        padding: 0;
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+}
